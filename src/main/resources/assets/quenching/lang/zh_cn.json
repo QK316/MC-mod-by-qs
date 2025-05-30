@@ -1,0 +1,13 @@
+{
+  "item.quenching.refined_iron_ingot" : "精炼铁锭",
+  "item.quenching.aluminum_ingot" : "铝锭",
+  "item.quenching.zinc_ingot" : "锌锭",
+  "item.quenching.copper_ingot" : "铜锭",
+
+  "block.quenching.refined_iron_block": "精炼铁块",
+  "block.quenching.aluminum_block": "铝块",
+  "block.quenching.zinc_block": "锌块",
+  "block.quenching.copper_block": "铜块",
+
+  "itemGroup.quenching_group": "淬火"
+}

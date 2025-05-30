@@ -1,0 +1,13 @@
+{
+  "item.quenching.refined_iron_ingot" : "Refined Iron Ingot",
+  "item.quenching.aluminum_ingot" : "Aluminum Ingot",
+  "item.quenching.zinc_ingot" : "Zinc Ingot",
+  "item.quenching.copper_ingot" : "Copper Ingot",
+
+  "block.quenching.refined_iron_block": "Refined Iron Block",
+  "block.quenching.aluminum_block" : "Aluminum Block",
+  "block.quenching.zinc_block" : "Zinc Block",
+  "block.quenching.copper_block" : "Copper Block",
+
+  "itemGroup.quenching_group": "Quenching Tab"
+}
