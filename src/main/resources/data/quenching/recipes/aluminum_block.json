@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "quenching:aluminum_ingot"
+    }
+  },
+  "result": {
+    "item": "quenching:aluminum_block"
+  }
+}

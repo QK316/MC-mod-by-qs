@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "quenching:refined_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "quenching:refined_iron_block"
+  }
+}

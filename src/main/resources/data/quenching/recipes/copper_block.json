@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "quenching:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "quenching:copper_block"
+  }
+}
