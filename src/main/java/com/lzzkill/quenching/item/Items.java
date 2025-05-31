@@ -18,9 +18,11 @@ public class Items
     public static final RegistryObject<Item> ZINC_INGOT = DEFERRED_REGISTER.register("zinc_ingot", () -> new Item(new Item.Properties().tab(Quenching.QUENCHING_GROUP)));
     public static final RegistryObject<Item> COPPER_INGOT = DEFERRED_REGISTER.register("copper_ingot", () -> new Item(new Item.Properties().tab(Quenching.QUENCHING_GROUP)));
 
-    public static final RegistryObject<BlockItem> REFINED_IRON_BLOCK = DEFERRED_REGISTER.register("refined_iron_block.json", () -> new BlockItem(Blocks.REFINED_IRON_BLOCK.get(), new Item.Properties().tab(Quenching.QUENCHING_GROUP)));
+    public static final RegistryObject<BlockItem> REFINED_IRON_BLOCK = DEFERRED_REGISTER.register("refined_iron_block", () -> new BlockItem(Blocks.REFINED_IRON_BLOCK.get(), new Item.Properties().tab(Quenching.QUENCHING_GROUP)));
     public static final RegistryObject<BlockItem> ALUMINUM_BLOCK = DEFERRED_REGISTER.register("aluminum_block", () -> new BlockItem(Blocks.ALUMINUM_BLOCK.get(), new Item.Properties().tab(Quenching.QUENCHING_GROUP)));
     public static final RegistryObject<BlockItem> ZINC_BLOCK = DEFERRED_REGISTER.register("zinc_block", () -> new BlockItem(Blocks.ZINC_BLOCK.get(), new Item.Properties().tab(Quenching.QUENCHING_GROUP)));
     public static final RegistryObject<BlockItem> COPPER_BLOCK = DEFERRED_REGISTER.register("copper_block", () -> new BlockItem(Blocks.COPPER_BLOCK.get(), new Item.Properties().tab(Quenching.QUENCHING_GROUP)));
-
+    public static final RegistryObject<BlockItem> ALUMINUM_ORE = DEFERRED_REGISTER.register("aluminum_ore", () -> new BlockItem(Blocks.ALUMINUM_ORE.get(), new Item.Properties().tab(Quenching.QUENCHING_GROUP)));
+    public static final RegistryObject<BlockItem> ZINC_ORE = DEFERRED_REGISTER.register("zinc_ore", () -> new BlockItem(Blocks.ZINC_ORE.get(), new Item.Properties().tab(Quenching.QUENCHING_GROUP)));
+    public static final RegistryObject<BlockItem> COPPER_ORE = DEFERRED_REGISTER.register("copper_ore", () -> new BlockItem(Blocks.COPPER_ORE.get(), new Item.Properties().tab(Quenching.QUENCHING_GROUP)));
 }

@@ -8,6 +8,8 @@
   "block.quenching.aluminum_block": "铝块",
   "block.quenching.zinc_block": "锌块",
   "block.quenching.copper_block": "铜块",
-
+  "block.quenching.aluminum_ore" : "铝矿",
+  "block.quenching.zinc_ore" : "锌矿",
+  "block.quenching.copper_ore" : "铜矿",
   "itemGroup.quenching_group": "淬火"
 }

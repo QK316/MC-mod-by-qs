@@ -21,7 +21,7 @@ public class Quenching
     {
         Blocks.DEFERRED_REGISTER.register(FMLJavaModLoadingContext.get().getModEventBus());
         Items.DEFERRED_REGISTER.register(FMLJavaModLoadingContext.get().getModEventBus());
-
         MinecraftForge.EVENT_BUS.register(this);
     }
+
 }

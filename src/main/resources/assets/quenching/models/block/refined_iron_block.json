@@ -1,6 +1,6 @@
 {
   "parent" : "minecraft:block/cube_all",
   "textures" : {
-    "all": "quenching:block/refined_iron_block"
+    "all" : "quenching:block/refined_iron_block"
   }
 }
