@@ -4,7 +4,7 @@
   "item.quenching.zinc_ingot" : "Zinc Ingot",
   "item.quenching.copper_ingot" : "Copper Ingot",
   "item.quenching.sulfur": "Sulfur",
-
+  "item.quenching.glass_frit": "Glass Powder",
   "block.quenching.refined_iron_block": "Refined Iron Block",
   "block.quenching.aluminum_block" : "Aluminum Block",
   "block.quenching.zinc_block" : "Zinc Block",
