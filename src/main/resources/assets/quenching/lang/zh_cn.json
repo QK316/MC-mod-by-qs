@@ -3,6 +3,7 @@
   "item.quenching.aluminum_ingot" : "铝锭",
   "item.quenching.zinc_ingot" : "锌锭",
   "item.quenching.copper_ingot" : "铜锭",
+  "item.quenching.sulfur": "硫磺",
 
   "block.quenching.refined_iron_block": "精炼铁块",
   "block.quenching.aluminum_block": "铝块",

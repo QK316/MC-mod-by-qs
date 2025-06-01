@@ -3,6 +3,7 @@
   "item.quenching.aluminum_ingot" : "Aluminum Ingot",
   "item.quenching.zinc_ingot" : "Zinc Ingot",
   "item.quenching.copper_ingot" : "Copper Ingot",
+  "item.quenching.sulfur": "Sulfur",
 
   "block.quenching.refined_iron_block": "Refined Iron Block",
   "block.quenching.aluminum_block" : "Aluminum Block",

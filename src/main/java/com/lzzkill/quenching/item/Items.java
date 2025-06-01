@@ -20,6 +20,8 @@ public class Items
     public static final RegistryObject<Item> ZINC_INGOT = DEFERRED_REGISTER.register("zinc_ingot", () -> new Item(DEFAULT_PROPERTIES));
     public static final RegistryObject<Item> COPPER_INGOT = DEFERRED_REGISTER.register("copper_ingot", () -> new Item(DEFAULT_PROPERTIES));
 
+    public static final RegistryObject<Item> SULFUR = DEFERRED_REGISTER.register("sulfur", () -> new Item(DEFAULT_PROPERTIES));
+
     public static final RegistryObject<BlockItem> REFINED_IRON_BLOCK = DEFERRED_REGISTER.register("refined_iron_block", () -> new BlockItem(Blocks.REFINED_IRON_BLOCK.get(), DEFAULT_PROPERTIES));
     public static final RegistryObject<BlockItem> ALUMINUM_BLOCK = DEFERRED_REGISTER.register("aluminum_block", () -> new BlockItem(Blocks.ALUMINUM_BLOCK.get(), DEFAULT_PROPERTIES));
     public static final RegistryObject<BlockItem> ZINC_BLOCK = DEFERRED_REGISTER.register("zinc_block", () -> new BlockItem(Blocks.ZINC_BLOCK.get(), DEFAULT_PROPERTIES));
