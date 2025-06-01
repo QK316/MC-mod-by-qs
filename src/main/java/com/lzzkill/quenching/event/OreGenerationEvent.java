@@ -1,4 +1,4 @@
-package com.lzzkill.quenching.world;
+package com.lzzkill.quenching.event;
 
 import com.lzzkill.quenching.block.Blocks;
 import net.minecraft.world.biome.Biome;
@@ -13,16 +13,16 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber
-public class OreGeneration
+public class OreGenerationEvent
 {
 
     @SubscribeEvent
     public static void onBiomeLoadingEvent(final BiomeLoadingEvent event)
     {
         if (event.getCategory() != Biome.Category.NETHER && event.getCategory() != Biome.Category.THEEND) {
-            ConfiguredFeature<?, ?> aluminumOre = buildOreFeature(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, Blocks.ALUMINUM_ORE.get().defaultBlockState(), 8), 64, 0, 64, 64);
-            ConfiguredFeature<?, ?> zincOre = buildOreFeature(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, Blocks.ZINC_ORE.get().defaultBlockState(), 6), 16, 0, 64, 64);
-            ConfiguredFeature<?, ?> copperOre = buildOreFeature(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, Blocks.COPPER_ORE.get().defaultBlockState(), 10), 16, 2, 128, 80);
+            ConfiguredFeature<?, ?> aluminumOre = buildOreFeature(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, Blocks.ALUMINUM_ORE.get().defaultBlockState(), 8), 16, 0, 64, 32);
+            ConfiguredFeature<?, ?> zincOre = buildOreFeature(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, Blocks.ZINC_ORE.get().defaultBlockState(), 4), 16, 0, 32, 16);
+            ConfiguredFeature<?, ?> copperOre = buildOreFeature(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, Blocks.COPPER_ORE.get().defaultBlockState(), 12), 16, 2, 80, 32);
 
             event.getGeneration().addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, aluminumOre);
             event.getGeneration().addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, zincOre);
