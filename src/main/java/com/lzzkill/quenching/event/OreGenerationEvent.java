@@ -35,9 +35,4 @@ public class OreGenerationEvent
         return Feature.ORE.configured(oreFeatureConfig).decorated(Placement.RANGE.configured(new TopSolidRangeConfig(minHeight, Offset, maxHeight))).count(count).squared();
     }
 
-//    private static ConfiguredFeature<?, ?> buildOreFeature(final OreFeatureConfig oreFeatureConfig, TopSolidRangeConfig topSolidRangeConfig, final int count)
-//    {
-//        return Feature.ORE.configured(oreFeatureConfig).decorated(Placement.RANGE.configured(topSolidRangeConfig)).count(count);
-//    }
-
 }
