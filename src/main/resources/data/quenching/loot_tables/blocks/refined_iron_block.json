@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:refined_iron_block"
+          "name": "quenching:refined_iron_block"
         }
       ],
       "conditions": [
