@@ -19,5 +19,13 @@
   "block.quenching.zinc_ore" : "Zinc Ore",
   "block.quenching.copper_ore" : "Copper Ore",
 
+  "advancements.quenching.obtain_copper.title": "Why is there a higher version of the stuff?",
+  "advancements.quenching.obtain_copper.description": "Get copper.",
+  "advancements.quenching.obtain_aluminum.title": "New periodic!",
+  "advancements.quenching.obtain_aluminum.description": "Get aluminum.",
+  "advancements.quenching.obtain_zinc.title": "Zinc",
+  "advancements.quenching.obtain_zinc.description": "Get zinc.",
+  "advancements.quenching.root.title": "Purer ...... Iron?",
+  "advancements.quenching.root.description": "Get Refined Iron",
   "itemGroup.quenching_group": "Quenching Tab"
 }

@@ -1,0 +1,33 @@
+{
+  "parent" : "quenching:normal/root",
+  "display" : {
+    "icon" : {
+      "item" : "quenching:zinc_ingot"
+    },
+    "title" : {
+      "translate" : "advancements.quenching.obtain_zinc.title"
+    },
+    "description" : {
+      "translate" : "advancements.quenching.obtain_zinc.description"
+    },
+    "frame" : "task",
+    "show_toast" : true,
+    "announce_to_chat" : true,
+    "hidden" : false
+  },
+  "criteria" : {
+    "has_zinc" : {
+      "trigger" : "minecraft:inventory_changed",
+      "conditions" : {
+        "items" : [
+          {
+            "item" : "quenching:zinc_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards" : {
+    "experience" : 10
+  }
+}

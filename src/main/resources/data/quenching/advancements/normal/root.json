@@ -1,0 +1,30 @@
+{
+  "display" : {
+    "icon" : {
+      "item" : "quenching:refined_iron_ingot"
+    },
+    "title" : {
+      "translate" : "advancements.quenching.root.title"
+    },
+    "description" : {
+      "translate" : "advancements.quenching.root.description"
+    },
+    "background" : "quenching:textures/block/refined_iron_block.png",
+    "frame" : "task",
+    "show_toast" : true,
+    "announce_to_chat" : true,
+    "hidden" : false
+  },
+  "criteria" : {
+    "has_refined_iron_ingot" : {
+      "trigger" : "minecraft:inventory_changed",
+      "conditions" : {
+        "items" : [
+          {
+            "item" : "quenching:refined_iron_ingot"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent" : "quenching:normal/root",
+  "display" : {
+    "icon" : {
+      "item" : "quenching:aluminum_ingot"
+    },
+    "title" : {
+      "translate" : "advancements.quenching.obtain_aluminum.title"
+    },
+    "description" : {
+      "translate" : "advancements.quenching.obtain_aluminum.description"
+    },
+    "frame" : "task",
+    "show_toast" : true,
+    "announce_to_chat" : true,
+    "hidden" : false
+  },
+  "criteria" : {
+    "has_aluminum" : {
+      "trigger" : "minecraft:inventory_changed",
+      "conditions" : {
+        "items" : [
+          {
+            "item" : "quenching:aluminum_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards" : {
+    "experience" : 10
+  }
+}

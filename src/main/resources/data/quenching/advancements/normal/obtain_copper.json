@@ -1,0 +1,33 @@
+{
+  "parent" : "quenching:normal/root",
+  "display" : {
+    "icon" : {
+      "item" : "quenching:copper_ingot"
+    },
+    "title" : {
+      "translate" : "advancements.quenching.obtain_copper.title"
+    },
+    "description" : {
+      "translate" : "advancements.quenching.obtain_copper.description"
+    },
+    "frame" : "task",
+    "show_toast" : true,
+    "announce_to_chat" : true,
+    "hidden" : false
+  },
+  "criteria" : {
+    "has_copper" : {
+      "trigger" : "minecraft:inventory_changed",
+      "conditions" : {
+        "items" : [
+          {
+            "item" : "quenching:copper_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards" : {
+    "experience" : 10
+  }
+}
