@@ -13,7 +13,7 @@ public class FuelEvent
     {
         if(event.getItemStack().getItem() == Items.SULFUR.get())
         {
-            event.setBurnTime(160);
+            event.setBurnTime(1600);
         }
     }
 }
