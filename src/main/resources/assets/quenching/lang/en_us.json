@@ -25,7 +25,7 @@
   "advancements.quenching.obtain_aluminum.description": "Get aluminum.",
   "advancements.quenching.obtain_zinc.title": "Zinc",
   "advancements.quenching.obtain_zinc.description": "Get zinc.",
-  "advancements.quenching.root.title": "Purer ...... Iron?",
-  "advancements.quenching.root.description": "Get Refined Iron",
+  "advancements.quenching.root.title": "Quenching",
+  "advancements.quenching.root.description": "First of all.",
   "itemGroup.quenching_group": "Quenching Tab"
 }

@@ -23,9 +23,9 @@
   "advancements.quenching.obtain_copper.description": "炼铜，并得到一块铜锭。",
   "advancements.quenching.obtain_aluminum.title": "亲密伴“铝”",
   "advancements.quenching.obtain_aluminum.description": "得到铝。",
-  "advancements.quenching.obtain_zinc.title": "我要制取氢气！",
+  "advancements.quenching.obtain_zinc.title": "制取氢气。",
   "advancements.quenching.obtain_zinc.description": "得到锌。不要用它制取氢气……除非你要听到化学老师「尖锐的爆鸣声」。",
-  "advancements.quenching.root.title": "来硬的",
-  "advancements.quenching.root.description": "得到精炼铁（不是钢！不是钢！！不是钢！！！重要的事情说三遍！！！！）",
+  "advancements.quenching.root.title": "淬火",
+  "advancements.quenching.root.description": "一切的起源。",
   "itemGroup.quenching_group": "淬火"
 }
