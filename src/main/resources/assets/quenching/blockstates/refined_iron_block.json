@@ -1,7 +1,7 @@
 {
   "variants" : {
     "" : {
-      "model" : "minecraft:block/refined_iron_block"
+      "model" : "quenching:block/refined_iron_block"
     }
   }
 }
