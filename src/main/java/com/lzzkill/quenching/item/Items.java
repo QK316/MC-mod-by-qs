@@ -21,7 +21,7 @@ public class Items
     public static final RegistryObject<Item> COPPER_INGOT = registerDefaultItem("copper_ingot");
 
     public static final RegistryObject<Item> SULFUR = registerDefaultItem("sulfur");
-    public static final RegistryObject<Item> GLASS_FRIT = registerDefaultItem("glass_frit");
+    public static final RegistryObject<Item> GLASS_DUST = registerDefaultItem("glass_dust");
     public static final RegistryObject<Item> CARBON_STICK = registerDefaultItem("carbon_stick");
     public static final RegistryObject<Item> LOW_CARBON_STEEL = registerDefaultItem("low_carbon_steel");
     public static final RegistryObject<Item> HIGH_CARBON_STEEL = registerDefaultItem("high_carbon_steel");
