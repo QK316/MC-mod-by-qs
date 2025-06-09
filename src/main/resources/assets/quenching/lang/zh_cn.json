@@ -15,9 +15,9 @@
   "block.quenching.aluminum_block": "铝块",
   "block.quenching.zinc_block": "锌块",
   "block.quenching.copper_block": "铜块",
-  "block.quenching.aluminum_ore" : "铝矿",
-  "block.quenching.zinc_ore" : "锌矿",
-  "block.quenching.copper_ore" : "铜矿",
+  "block.quenching.aluminum_ore" : "铝矿石",
+  "block.quenching.zinc_ore" : "锌矿石",
+  "block.quenching.copper_ore" : "铜矿石",
 
   "advancements.quenching.obtain_copper.title": "不是哥们，为啥会有高版本的东西？",
   "advancements.quenching.obtain_copper.description": "炼铜，并得到一块铜锭。",
